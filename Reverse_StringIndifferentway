@@ -1,0 +1,5 @@
+text = 'Python'
+
+my_slice = slice(None,None,-1)
+print(text[::-1])
+print(text[my_slice])
