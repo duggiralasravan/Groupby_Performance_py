@@ -1,0 +1,10 @@
+class Car:
+    def __init__(self, brand: str):
+        self.Brand = brand
+
+    def __str__(self):
+        return f'Car: {self.Brand}'
+
+
+car = Car('Ford')
+print(car)
