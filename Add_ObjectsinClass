@@ -1,0 +1,16 @@
+class Expense:
+    def __init__(self, name: str, cost: int):
+        self.name = name
+        self.cost = cost
+
+    ## This function will make sure it will add two objects
+    def __add__(self, other):
+        return self.cost + other.cost
+
+
+fuel = Expense('Fuel', 20)
+Coal = Expense('Coal', 30)
+tolls = Expense('Tolls', 50)
+print(fuel + Coal)
+## - This will fail
+print(fuel + Coal + tolls)
