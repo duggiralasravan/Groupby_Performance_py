@@ -1,0 +1,5 @@
+from pprint import pprint
+
+md_dict = {'name':'Sravan','Age':'35','Email': 'test@gmail.com','address':{'Line1':'Addline1','Line2':'AddLine2'}}
+
+pprint(md_dict)
