@@ -1,8 +1,14 @@
+## This will split the string into list and save is _
+*splitlist, = 'Python'
 
-
-*_, = 'Python'
-##
-
-
-for i in _:
+print(splitlist)
+## Output - ['P', 'y', 't', 'h', 'o', 'n']
+for i in splitlist:
     print(i)
+## Output 
+P
+y
+t
+h
+o
+n
